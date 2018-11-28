@@ -17,12 +17,9 @@ public class GameModel extends AbstractTableModel {
         games.add(new Game(sGame));
     }
 
-    public void removeGame(String gameName){
-        int i = 0;
-        while(i < games.size() && !gameName.equals(games.get(i).getName()))
-            i++;
-        if(i < games.size())
-            games.remove(i);
+    public void removeGame(int index){
+        if((index >= 0)&&(index < games.size()))
+            games.remove(index);
     }
 
     public Game getGame(int index){

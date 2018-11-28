@@ -44,9 +44,9 @@ public class MainFrame extends JFrame {
         removeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                RemoveGameDialog dialog =  new RemoveGameDialog(thisFrame);
-                if (dialog.getUserInput() != null) {
-                    gameModel.removeGame(dialog.getUserInput());
+                int row = table.getSelectedRow();
+                if(row != -1){
+                    gameModel.removeGame(row);
                     table.updateUI();
                 }
             }
