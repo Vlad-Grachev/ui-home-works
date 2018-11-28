@@ -1,0 +1,7 @@
+package model;
+
+public enum GameGenre {
+    ACTION, ADVENTURE, FIGHTING, PLATFORM,
+    PUZZLE, RACING, RPG, SHOOTER,
+    SIMULATION, SPORTS, STRATEGY, MISC
+};
