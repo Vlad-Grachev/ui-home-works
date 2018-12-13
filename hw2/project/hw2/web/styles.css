@@ -1,0 +1,74 @@
+.bodybackgr{
+    background: linear-gradient(0deg, #D5EDED, #ffffff);
+}
+.maindiv {
+    width: 742px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 4px;
+    border: solid 1px white;
+}
+
+h1 {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.equationdiv {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5pt;
+}
+
+#calcbutton{
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5pt;
+}
+
+.validimput {
+    background-color: white;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5pt;
+}
+
+.invalidimput {
+    background-color: red;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5pt;
+}
+
+#calcs {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calcs td, #calcs th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#calcs tr:nth-child(even){background-color: #D5EDED}
+#calcs tr:nth-child(odd){background-color: white}
+#calcs tr:hover {background-color: #ddd}
+
+#calcs th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #BED6D6;
+    color: white;
+}
