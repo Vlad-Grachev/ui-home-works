@@ -1,0 +1,88 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px;
+  text-align: center;
+}
+table {
+  margin: auto;
+  align-items: center;
+  vertical-align: middle;
+}
+td {
+  align-items: center;
+}
+
+.books-table {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.books-table td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.books-table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #BED6D6;
+  color: white;
+}
+
+.gwt-Button {
+  margin: 20px !important;
+
+}
+
+.gwt-ToggleButton {
+  margin: 20px !important;
+}
+
+.gwt-TextBox {
+  height: 12px;
+  width: 100px;
+}
+.gwt-Label {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#sortLabel {
+  font-size: 14px;
+  margin: 20px;
+}
+
+#sortListBox {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.watchListHeader {
+  background-color: rgba(17, 71, 194, 0.62);
+  border: black;
+}
+
+.invalid_input{
+  background-color: red;
+  width: 100px;
+}
+.valid_input{
+  background-color: transparent;
+  width: 100px;
+}
+
+.gwt-DialogBox {
+  height: 160px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>BookWorkerService</servlet-name>
+        <servlet-class>com.netcracker.server.LibraryServiceImpl</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>BookWorkerService</servlet-name>
+        <url-pattern>/gwt/library</url-pattern>
+    </servlet-mapping>
+
+    <!-- Default page to serve -->
+    <welcome-file-list>
+        <welcome-file>gwt.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
